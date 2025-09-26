@@ -1834,6 +1834,9 @@
     .h-120 {
     height: calc(var(--spacing) * 120);
   }
+  .h-145{
+    height: calc(var(--spacing) * 145);
+  }
 
   .h-\[1\.15rem\] {
     height: 1.15rem;

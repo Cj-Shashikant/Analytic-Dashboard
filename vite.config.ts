@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
   import path from 'path';
 
   export default defineConfig({
-  base: '/Analytic-Dashboard/',
+  base: process.env.NODE_ENV === 'production' ? '/Analytic-Dashboard/' : '/',
   plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
